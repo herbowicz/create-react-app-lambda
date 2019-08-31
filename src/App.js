@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import logo from "./logo.svg"
 import "./App.css"
 
 import Demo from "./Demo.js"
@@ -38,7 +37,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          Lambdas here!
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
