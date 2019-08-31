@@ -7,13 +7,13 @@ export async function handler(event, context) {
         const data = response.data
         return {
             statusCode: 200,
-            body: JSON.stringify({ msg: data.value })
+            body: JSON.stringify({ msg: data.value, myValue: "Pies to myValue" })
         }
     } catch (err) {
         console.log(err)
         return {
             statusCode: 500,
-            body: JSON.stringify({ msg: err.message })
+            body: JSON.stringify({ msg: err.message, myValue: "err!!" })
         }
     }
 }
