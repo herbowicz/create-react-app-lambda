@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import "./Demo.css"
 
 class Demo extends Component {
-  state = { loading: false, msg: null }
+  state = { loading: false, msg: 'WAIT FOR IT...' }
 
   handleClick = api => e => {
     e.preventDefault()

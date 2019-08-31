@@ -4,10 +4,7 @@ import "./App.css"
 import Demo from "./Demo.js"
 
 class LambdaDemo extends Component {
-  constructor(props) {
-    super(props)
-    this.state = { loading: false, msg: null }
-  }
+  state = { loading: false, msg: null }
 
   handleClick = api => e => {
     e.preventDefault()
