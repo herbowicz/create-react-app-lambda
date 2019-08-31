@@ -21,8 +21,7 @@ class Demo extends Component {
 
     return (
       <p>
-        <button onClick={this.handleClick("hello")}>{loading ? "Loading..." : "Call Lambda"}</button>
-        <button onClick={this.handleClick("async-dadjoke")}>{loading ? "Loading..." : "Call Async Chuck Norris"}</button>
+        <button onClick={this.handleClick("chuck-norris")}>{loading ? "Loading..." : "Call Async Chuck Norris"}</button>
         <br />
         <span>{msg}</span>
       </p>
